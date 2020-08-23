@@ -1,2 +1,0 @@
-# AungWanaGraphicDesign
-AungWana GraphicDesign
