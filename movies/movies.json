@@ -1,1 +1,43 @@
 
+{"categories":[
+{"name":"Recent", "image":"recent_img_link"
+},
+{"name":"Action", "image":"action_img_link"
+},
+{"name":"Drama", "image":"drama_img_link"
+},
+{"name":"Horror", "image":"horror_img_link"
+},
+{"name":"Suspense", "image":"suspense_img_link"
+}],
+
+"Recent":[
+{"title":"title1", "desc":"desc1", "image":"https://cinema.msubmovie.com/wp-content/uploads/2020/10/Jab-Harry-Met-Sejal.jpg", "link":"https://tgdown.eu-gb.mybluemix.net/15438575635527896/Jab%20Harry%20Met%20Sejal%20(2017).mp4", "category":"Action"
+},
+{"title":"title2", "desc":"desc2", "image":"https://cinema.msubmovie.com/wp-content/uploads/2020/10/Jab-Harry-Met-Sejal.jpg", "link":"https://tgdown.eu-gb.mybluemix.net/15438575635527896/Jab%20Harry%20Met%20Sejal%20(2017).mp4", "category":"Drama"
+}],
+
+"Action":[
+{"title":"title1", "desc":"desc1", "image":"https://cinema.msubmovie.com/wp-content/uploads/2020/10/Jab-Harry-Met-Sejal.jpg", "link":"https://tgdown.eu-gb.mybluemix.net/15438575635527896/Jab%20Harry%20Met%20Sejal%20(2017).mp4"
+},
+{"title":"title2", "desc":"desc2", "image":"https://cinema.msubmovie.com/wp-content/uploads/2020/10/Jab-Harry-Met-Sejal.jpg", "link":"https://tgdown.eu-gb.mybluemix.net/15438575635527896/Jab%20Harry%20Met%20Sejal%20(2017).mp4"
+}],
+
+"Drama":[
+{"title":"title1", "desc":"desc1", "image":"https://cinema.msubmovie.com/wp-content/uploads/2020/10/Jab-Harry-Met-Sejal.jpg", "link":"https://tgdown.eu-gb.mybluemix.net/15438575635527896/Jab%20Harry%20Met%20Sejal%20(2017).mp4"
+},
+{"title":"title2", "desc":"desc2", "image":"https://cinema.msubmovie.com/wp-content/uploads/2020/10/Jab-Harry-Met-Sejal.jpg", "link":"https://tgdown.eu-gb.mybluemix.net/15438575635527896/Jab%20Harry%20Met%20Sejal%20(2017).mp4"
+}],
+
+"Horror":[
+{"title":"title1", "desc":"desc1", "image":"https://cinema.msubmovie.com/wp-content/uploads/2020/10/Jab-Harry-Met-Sejal.jpg", "link":"https://tgdown.eu-gb.mybluemix.net/15438575635527896/Jab%20Harry%20Met%20Sejal%20(2017).mp4"
+},
+{"title":"title2", "desc":"desc2", "image":"https://cinema.msubmovie.com/wp-content/uploads/2020/10/Jab-Harry-Met-Sejal.jpg", "link":"https://tgdown.eu-gb.mybluemix.net/15438575635527896/Jab%20Harry%20Met%20Sejal%20(2017).mp4"
+}],
+
+"Suspense":[
+{"title":"title1", "desc":"desc1", "image":"https://cinema.msubmovie.com/wp-content/uploads/2020/10/Jab-Harry-Met-Sejal.jpg", "link":"https://tgdown.eu-gb.mybluemix.net/15438575635527896/Jab%20Harry%20Met%20Sejal%20(2017).mp4"
+},
+{"title":"title2", "desc":"desc2", "image":"https://cinema.msubmovie.com/wp-content/uploads/2020/10/Jab-Harry-Met-Sejal.jpg", "link":"https://tgdown.eu-gb.mybluemix.net/15438575635527896/Jab%20Harry%20Met%20Sejal%20(2017).mp4"
+}]
+}
