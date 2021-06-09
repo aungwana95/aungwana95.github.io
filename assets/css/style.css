@@ -5,6 +5,48 @@
 * License: https://bootstrapmade.com/license/
 */
 
+
+
+
+
+/*--------------------------------------------------------------
+# table
+--------------------------------------------------------------*/
+
+
+table {
+weight: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    min-width: 400px;
+   text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    color: #000000;
+    
+}
+
+thead tr {
+
+    background-color: #009879;
+    color: #ffffff;
+    
+}
+th, td {
+    padding: 20px 20px;
+}
+
+tr {
+    border-bottom: 3px solid #000000;
+    background-color: #f3f3f3;
+}
+
+
+
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -2212,7 +2254,7 @@ span.email-notes {
 }
 
 .popular-tag ul li a:hover, .footer-icons ul li a:hover {
-  background: #3EC1D5;
+background: #000000;
   border: 1px solid #3EC1D5;
   color: #fff;
 }
@@ -2238,6 +2280,7 @@ span.email-notes {
 }
 
 .copyright-text a:hover {
+
   text-decoration: underline;
   color: #3EC1D5;
 }
