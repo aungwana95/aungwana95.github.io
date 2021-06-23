@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>တော်လှန်ရေးသီချင်းများ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<img alt="" border="0" width="500" src="https://bbotvaw1.files.wordpress.com/2021/06/logo-1.png"/>
+  	
+  <div class="main">
+
+
+        <!-- show_song_number -->
+        <div class="show_song_no">
+          <p id="present">1</p>
+          <p>/</p>
+          <p id="total">5</p>
+        </div>
+
+
+    <!--- left part --->
+     <div class="left">
+
+      <!--- song img --->
+      <img id="track_image">
+         <div class="volume">
+            <p id="volume_show">90</p>
+            <i class="fa fa-volume-up" aria-hidden="true" onclick="mute_sound()" id="volume_icon"></i>
+            <input type="range" min="0" max="100" value="90" onchange="volume_change()" id="volume">  
+         </div>
+
+     </div>
+ 
+     <!--- right part --->
+  	 <div class="right">
+       <!--- song title & artist name --->
+       <div class="song_detail">
+           <p id="title">title.mp3</p>
+           <p id="artist">Artist name</p>
+  <p id="artist">Next နှိပ်ပြီးတစ်ပုဒ်ပြီးတစ်ပုဒ်နားထောင်နိုင်သည်</p>
+       </div>
+
+      <!--- middle part --->
+  	 	<div class="middle">
+  	       <button onclick="previous_song()" id="pre"><img alt="" border="0" width="50" src="https://bbotvaw1.files.wordpress.com/2021/06/next2-1.png"/></button>
+      	   <button onclick="justplay()" id="play"><img alt="" border="0" width="50" src="https://bbotvaw1.files.wordpress.com/2021/06/play.png"/></button>
+  	       <button onclick="next_song()" id="next"><img alt="" border="0" width="50" src="https://bbotvaw1.files.wordpress.com/2021/06/next1.png"/></button>
+  	   </div>
+
+       <!--- song duration part --->
+        <div class="duration">
+           <input type="range" min="0" max="100" value="0" id="duration_slider" onchange="change_duration()">
+           <button id="auto" onclick="autoplay_switch()">Auto &nbsp;<i class="fa fa-circle-o-notch" aria-hidden="true"></i></button>
+        </div>
+           
+  	</div>
+
+
+  </div>
+   
+  <!--- Add javascript file --->
+  <script src="main.js"></script>
+
+</body>
+</html>
