@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Videopress link Generator</title>	
+        <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="https://s1.wp.com/i/favicon.ico" sizes="16x16 32x32"/>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -16,7 +17,7 @@
 			</div>
    <div class="wpk-field iframe-url-option">
 						<label for="iframe-url">Copy Edit:</label>
-						<input class="form-control" type="text" name="url" placeholder="မှတ်ချက် => စာပြင်ရန်">
+						<input class="form-control" type="text" placeholder="မှတ်ချက် => စာပြင်ရန်">
 					</div>
 		</div>
 	</header>
@@ -26,37 +27,48 @@
 				<div class="wpk-field-area">			
 					<div class="wpk-option">
 
-
-                                                 <div class="wpk-field">
-                                                 <label for="iframe-url">Main HD Link:</label>
-						<textarea id="iframe-output-area1" class="form-control"></textarea>
-                                                 <button class="generate-iframe btn btn-primary" onclick="copy1()">Copy</button>
+                                                <div class="wpk-field">
+                                                 <label for="iframe-url">Main Embed Link :</label>
+						<textarea id="iframe-output-area6" class="form-control"></textarea>
+                                                 <button class="btn-primary" onclick="copy6()">Copy</button>
+                                                 <button class="btn-primary" onclick="open6()">Open</button>
 						</div>
 
                                                  <div class="wpk-field">
-                                                 <label for="iframe-url">1080p (OR) 720p:</label>
-						<textarea id="iframe-output-area2" class="form-control"></textarea>
-                                                 <button class="generate-iframe btn btn-primary" onclick="copy2()">Copy</button>
-						</div>
-
-                                                 <div class="wpk-field">
-                                                 <label for="iframe-url">480p:</label>
-						<textarea id="iframe-output-area3" class="form-control"></textarea>
-                                                 <button class="generate-iframe btn btn-primary" onclick="copy3()">Copy</button>
-						</div>
-
-                                                 <div class="wpk-field">
-                                                 <label for="iframe-url">240p:</label>
-						<textarea id="iframe-output-area4" class="form-control"></textarea>
-                                                 <button class="generate-iframe btn btn-primary"  onclick="copy4()">Copy</button>
-						</div>
-
-
-                                                 <div class="wpk-field">
-                                                 <label for="iframe-url">Cover Image:</label>
+                                                 <label for="iframe-url">Cover Image :</label>
 						<textarea id="iframe-output-area5" class="form-control"></textarea>
-                                                 <button class="generate-iframe btn btn-primary"  onclick="copy5()">Copy</button>
+                                                 <button class="btn-primary"  onclick="copy5()">Copy</button>
+                                                 <button class="btn-primary" onclick="open5()">Open</button>
 						</div>
+
+                                                 <div class="wpk-field">
+                                                 <label for="iframe-url">Main HD Link :</label>
+						<textarea id="iframe-output-area1" class="form-control"></textarea>
+                                                 <button class="btn-primary" onclick="copy1()">Copy</button>
+                                                 <button class="btn-primary" onclick="open1()">Open</button>
+						</div>
+
+                                                 <div class="wpk-field">
+                                                 <label for="iframe-url">1080p (OR) 720p :</label>
+						<textarea id="iframe-output-area2" class="form-control"></textarea>
+                                                 <button class="btn-primary" onclick="copy2()">Copy</button>
+                                                 <button class="btn-primary" onclick="open2()">Open</button>
+						</div>
+
+                                                 <div class="wpk-field">
+                                                 <label for="iframe-url">480p :</label>
+						<textarea id="iframe-output-area3" class="form-control"></textarea>
+                                                 <button class="btn-primary" onclick="copy3()">Copy</button>
+                                                 <button class="btn-primary" onclick="open3()">Open</button>
+						</div>
+
+                                                 <div class="wpk-field">
+                                                 <label for="iframe-url">240p :</label>
+						<textarea id="iframe-output-area4" class="form-control"></textarea>
+                                                 <button class="btn-primary"  onclick="copy4()">Copy</button>
+                                                 <button class="btn-primary" onclick="open4()">Open</button>
+						</div>
+
 
 					</div>
                                    <div class="wpk-field iframe-url-option">
