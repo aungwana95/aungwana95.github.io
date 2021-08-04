@@ -1,4 +1,5 @@
 body{
+        background: #0d1117;}
 	font-size: 400;
 	font-family: 'Roboto', sans-serif;
 }
@@ -13,13 +14,14 @@ body{
 }
 
 .wpk-iframe-generator .wpk-option > .wpk-field{
+color: #ffffff;
 	width: 33.333%;
 	flex: 0 0 33.333%;
 	max-width: 33.333%;
 	display: inline-block;
 	padding-bottom: 20px;
 	padding-left: 30px;
-    padding-right: 30px;
+        padding-right: 30px;
 }
 .wpk-iframe-generator .iframe-url-option #iframe-url{
 	width: 100%;
@@ -27,4 +29,18 @@ body{
 }
 .wpk-iframe-generator .iframe-output button{
 	margin-bottom: 20px;
+}
+h1 {
+
+}
+h1, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+  margin: 0 0 15px;
+  color: #ffffff;
+  font-weight: 500;
+}
+h2 {
+  margin: 0 0 15px;
+  color: #ffffff;
+  font-weight: 100;
 }
