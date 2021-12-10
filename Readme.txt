@@ -1,4 +1,4 @@
 Thanks for downloading this template!
 
 Template Name: aw
-License: https://aungwana.com/
+License: https://aungwana95.github.io/
